@@ -20,6 +20,7 @@ Quickly prototype an idea using advanced build tools.
 
 TODOS:
 1. Add Redux Saga
+2. Hot Reloading
 
 Note: this is a little beefier than the original repository, however if you want a pllugin for state management or want to learn how to put these things together, than this might be for you.
 
