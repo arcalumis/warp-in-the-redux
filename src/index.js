@@ -5,10 +5,16 @@ import configureStore, { history } from './configureStore'
 import { App } from './App';
 import './App.scss'
 
-const store = configureStore({ text : {
-  text_one : "Hello",
-  text_two: "World!"
-} });
+const store = configureStore({ 
+  text : {
+    text_one : "Hello",
+    text_two: "World!"
+  }, 
+  user : { 
+    firstName : 'No User Data', 
+    lastName : ''
+  }
+});
 
 const render = () => {
   ReactDOM.render(

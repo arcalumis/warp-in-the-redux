@@ -16,14 +16,14 @@ app.use(express.static('dist'));
 
 app.use(express.static('public'));
 
-// app.get('/', async (req, res) => {
-//   let index = await fs.readFile("./views/index.ejs", "utf-8");
-//   res.send(index);
-// })
-
-app.get('*', async (req, res) => {
+app.get(['/','/home','/counter'], async (req, res) => {
   let index = await fs.readFile("./views/index.ejs", "utf-8");
   res.send(index);
+})
+
+app.get('/api/userData', async (req, res) => {
+  const data = { firstName : 'Space', lastName : 'Dolphin' };
+  res.json(data);
 })
 
 const port = process.env.PORT;
