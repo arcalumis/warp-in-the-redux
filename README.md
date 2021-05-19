@@ -1,4 +1,6 @@
-![warp-in-the-box](https://github.com/arcalumis/warp-in-the-box/raw/main/assets/warp-in-the-box.png)
+![warp-in-the-box](https://github.com/arcalumis/warp-in-the-redux/raw/main/assets/warp-in-the-redux.png)
+
+NEED TO ADD REDUX SAGA 5/19
 
 ## Preamble
 
@@ -16,7 +18,10 @@ The purpose of this repository is to allow anyone to have the access to setting 
 
 Quickly prototype an idea using advanced build tools.
 
-Note: this is a little beefy-er than the original repository, however if you want a pllugin for state management or want to learn how to put these things together, than this might be for you.
+TODOS:
+1. Add Redux Saga
+
+Note: this is a little beefier than the original repository, however if you want a pllugin for state management or want to learn how to put these things together, than this might be for you.
 
 **Scratch to set up in 11 minutes**
 
