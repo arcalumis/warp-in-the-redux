@@ -16,9 +16,6 @@ const Home = (props) => {
       <div className="space_dolphin_container">
         <img className="space_dolphin" src={SpaceDolphin} />
       </div>
-      <div className="react_wheel">
-        <img src={ReactWheel} />
-      </div>
       <div style={{textAlign: "center"}}>
         <div className="happy_hacking">Counter: {props.count}</div>
         <div>
