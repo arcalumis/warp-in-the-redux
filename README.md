@@ -16,9 +16,6 @@ The purpose of this repository is to allow anyone to have the access to setting 
 
 Quickly prototype an idea using advanced build tools.
 
-TODOS:
-1. Add Hot Reloading
-
 Note: this is a little beefier than the original repository, however if you want to use redux for state management, sagas, react router, or want to learn how to put these things together, this might be for you.
 
 **Scratch to set up in 11 minutes**
