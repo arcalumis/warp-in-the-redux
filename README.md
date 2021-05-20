@@ -285,9 +285,9 @@ fi
 
 cd /home/"$SUDO_USER"
 
-git clone https://github.com/arcalumis/warp-in-the-box.git
+git clone https://github.com/arcalumis/warp-in-the-redux.git
 
-cd warp-in-the-box
+cd warp-in-the-redux
 
 npm install
 
@@ -295,7 +295,7 @@ cat > .env <<- EOM
 PORT=5000
 EOM
 
-chown -R "$SUDO_USER":"$SUDO_USER" /home/"$SUDO_USER"/warp-in-the-box
+chown -R "$SUDO_USER":"$SUDO_USER" /home/"$SUDO_USER"/warp-in-the-redux
 
 echo "Cleaning Up"
 
