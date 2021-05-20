@@ -305,6 +305,7 @@ rm -f ../setup.sh
 
 echo "Finished Installing!"
 echo ""
+echo "Navigate into the project folder by running: cd warp-in-the-redux"
 echo "Start your development server by running: npm start"
 
 ```
